@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbar title="My ReactApp" aboutText="About Us" linkNumber={3}/>
     </>
   );
 }
